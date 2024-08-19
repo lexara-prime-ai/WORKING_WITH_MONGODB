@@ -4,8 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-bson = "2.11.0"
-chrono = "0.4.38"
+bson = { version = "2.11.0", features = ["chrono-0_4"] }
+chrono = { version = "0.4.38", features = ["serde"] }
 mongodb = "3.0.1"
-serde = "1.0.208"
+serde = { version = "1.0.208", features = ["derive"] }
 tokio = "1.39.3"
