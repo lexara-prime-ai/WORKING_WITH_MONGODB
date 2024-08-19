@@ -1,0 +1,11 @@
+[package]
+name = "working_with_mongodb"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bson = "2.11.0"
+chrono = "0.4.38"
+mongodb = "3.0.1"
+serde = "1.0.208"
+tokio = "1.39.3"
